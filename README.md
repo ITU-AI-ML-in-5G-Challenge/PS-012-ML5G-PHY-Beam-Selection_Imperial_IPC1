@@ -35,16 +35,6 @@ the output to obtain the predictions.
 Our network consists of only 7460 parameters, therefore it can be trained very quickly, asd easily adjusted
 to many distributed learning scenarios.
 
-## Federated learning
-
-![](img/FEDBeam.jpg)
-
-We also consider training our model in the federated learning paradigm, where connected vehicles collaborate to train
-to train the network. We consider each vehicle gathers it's own dataset of LIDAR measurements and corresponding
-beam ground truths and runs a few training iterations, which is followed by sending a gradient update to the
-base station. This significantly reduces the communication overhead as instead of heavyweight point clouds
-we only transmit lightweight neural network gradients.
-
 ## Results
 
  Model        | Top-10 accuracy | Top-10 throughput ratio | FLOP count   | Number of trainable parameters |
@@ -54,13 +44,6 @@ we only transmit lightweight neural network gradients.
 
 Our model achieves superior performance compared to the baseline<sup>4</sup>, when trained offline, while also achieving
 55x reduction in the number of parameters and 100x reduction in the number of FLOPs required to run the forward pass.
-
-![](img/Acc_Thr.jpg)
-
-In the federated scenario, our model is able to achieve a satisfactory performance even for a reasonable
-number of participating vehicles. The loss in the accuracy is caused by the fact that the local datasets
-available at the vehicles are not IID, which is generally harmful to deep neural networks.
-Our ongoing work aims at finding a better way to train our network in the federated manner.
 
 ## Questions?
 If you have any further questions related to this repo, feel free to contact me at mikolaj.jankowski17@imperial.ac.uk or raise an Issue within this repo. I'll do my best to reply as soon as possible.
