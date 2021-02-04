@@ -55,10 +55,10 @@ we only transmit lightweight neural network gradients.
 Our model achieves superior performance compared to the baseline<sup>4</sup>, when trained offline, while also achieving
 55x reduction in the number of parameters and 100x reduction in the number of FLOPs required to run the forward pass.
 
-![](img/Acc_Thr.jpg)
+![](img/Acc_Thr.png)
 
 In the federated scenario, our model is able to achieve a satisfactory performance even for a reasonable
-number of participating vehicles. The loss in the accuracy is caused by the fact that the local datasets
+number of participating vehicles, denoted as V. The loss in the accuracy is caused by the fact that the local datasets
 available at the vehicles are not IID, which is generally harmful to deep neural networks.
 Our ongoing work aims at finding a better way to train our network in the federated manner.
 
