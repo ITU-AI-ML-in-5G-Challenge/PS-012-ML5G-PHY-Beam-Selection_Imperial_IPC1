@@ -50,7 +50,7 @@ we only transmit lightweight neural network gradients.
  Model        | Top-10 accuracy | Top-10 throughput ratio | FLOP count   | Number of trainable parameters |
 |--------------|-----------------|-------------------------|--------------|--------------------------------|
 | Baseline [4] | 83.52%          | 0.8415                  | 179.01 × 10<sup>6</sup> | 179.01 × 10<sup>6</sup>                   |
-| Proposed     | 90.76%          | 0.9369                  | 1.72 × 10<sup>6</sup>   | 7.46 × 10<sup>6</sup>                    |
+| Proposed     | 91.17%          | 0.9478                  | 1.72 × 10<sup>6</sup>   | 7.46 × 10<sup>6</sup>                    |
 
 Our model achieves superior performance compared to the baseline<sup>4</sup>, when trained offline, while also achieving
 55x reduction in the number of parameters and 100x reduction in the number of FLOPs required to run the forward pass.
