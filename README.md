@@ -70,3 +70,4 @@ If you have any further questions related to this repo, feel free to contact me 
 2. Raymobtime dataset: https://www.lasse.ufpa.br/raymobtime/
 3. A. Klautau, P. Batista, N. González-Prelcic, Y. Wang and R. W. Heath Jr., “5G MIMO Data for Machine Learning: Application to Beam-Selection using Deep Learning” in 2018 Information Theory and Applications Workshop (ITA).
 4. A. Klautau, N. González-Prelcic and R. W. Heath Jr., “LIDAR Data for Deep Learning-Based mmWave Beam-Selection” in IEEE Wireless Communications Letters, vol. 8, no. 3, pp. 909-912, June 2019.
+5. M. B. Mashadi, M. Jankowski, T-Y. Tung, S. Kobus, D. Gunduz, “Federated mmWave Beam Selection Utilizing LIDAR Data”, arXiv:2102.02802, link: https://arxiv.org/abs/2102.02802
